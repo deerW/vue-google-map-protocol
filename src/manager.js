@@ -55,7 +55,7 @@ export const loadGmapApi = (options, loadCn) => {
     const protocol = window.location.protocol
 
     let host = '//maps.googleapis.com/'
-    console.log(loadCn, typeof loadCn)
+
     if (typeof loadCn === 'boolean' && loadCn === true) {
       host = '//ditu.google.cn/'
     }
